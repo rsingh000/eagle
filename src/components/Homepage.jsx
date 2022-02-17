@@ -211,7 +211,6 @@ const Homepage = () => {
               </Button>
           </form>
       </div>
-      <ToastContainer className="toastEstimate"/>
     </>
 /*     <div className="container-center-horizontal">
       <div className="homepage screen">
