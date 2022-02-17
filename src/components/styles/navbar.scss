@@ -1,0 +1,406 @@
+@import "../../global.scss";
+
+
+.react-responsive-modal-modal {
+  padding: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: var(--focus2);
+  z-index: 2;
+}
+
+.logoImg {
+    height: 55px;
+    object-fit: cover;
+    width: 200px;
+  
+}
+
+.nav-links {
+  transition: all 1s ease-out;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+
+.home,
+.services,
+.about,
+.contact,
+.work,
+.estimate{
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 14px;
+  padding: 10px 20px;
+  font-family: var(--font-family-roboto);
+  font-weight: 600;
+    font-style: normal;
+  margin: 0px 20px;
+  cursor: pointer;
+
+  @include tablet {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+.nav-links a:hover{
+  border: 1px solid var(--boston-blue);
+  color: white;
+  border-radius: 3px;
+  background-color: var(--boston-blue);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.estimate{
+  color: white;
+  background-color: var(--boston-blue);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fixNav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+img.phoneNav{
+  display: none;
+  cursor: pointer;
+}
+
+.iconNav{
+  display: none;
+}
+
+@include mobile{
+  .logoImg{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+
+  img.phoneNav {
+    display: block;
+    height: 28px;
+    letter-spacing: 0;
+    margin-right: -123px;
+    margin-top: 0px;
+    width: 61px
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  .nav-links-mobile{
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: black;
+    color: white;
+    left: 0;
+    top: 75px;
+    width: 100%;
+    transition: all 1s ease-out;
+    z-index: 1;
+  }
+
+  .nav-links-mobile  li {
+    margin-left: -7px;
+    color: white;
+    padding: 10px;
+    animation: fadeIn ease-out 1s forwards ;
+  }
+
+  @keyframes fadeIn {
+    0% { 
+      right: 0; 
+      transform: translateY(0%);
+    }
+    100% { 
+      right: 100%; 
+      transform: translateY(100%);
+    }
+  }
+
+  li:last-child {
+    background-color: var(--boston-blue);
+  }
+
+  .home,
+  .services,
+  .about,
+  .contact,
+  .work,
+  .estimate{
+    color: white;
+    transition: all 0.5s ease;
+  }
+
+  .nav-links-mobile li a:active{
+    background-color: var(--boston-blue);
+  }
+
+  .estimate {
+  background-color: transparent;
+  }
+
+
+  .iconNav{
+    display: block;
+    cursor: pointer;
+    margin-right: -68px;
+    height: 26.5px;
+    transition: all 0.5s ease;
+    width: 44px;
+  }
+}
+/* .mobileNav{
+  display: none;
+
+  @include mobile{
+    display: flex;
+    height: 59px;
+    width: 424px;
+  }
+}
+
+.topbar-1{
+  display: none;
+
+  @include mobile{
+    background-color: var(--focus2);
+    display: flex;
+    flex: 1;
+    height: 70.57px;
+    margin-top: -12px;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+.logoMobile{
+  display: none;
+
+  @include mobile{
+    display: flex;
+    margin-left: 34px;
+    margin-top: 7px;
+    overflow: hidden;
+    width: 155px;
+  }
+}
+
+.phone{
+  display: none;
+
+  @include mobile{
+    height: 36px;
+    margin-left: 101px;
+    margin-top: 22px;
+    width: 47px;
+  }
+}
+
+.fontistonav-icon-a {
+  display: none;
+
+  @include mobile{
+    cursor: pointer;
+    height: 26.5px;
+    margin-left: 24px;
+    margin-top: 27.8px;
+    transition: all 0.2s ease;
+    width: 33px;
+  }
+}
+
+
+
+.pentagon-nav {
+    align-items: flex-end;
+    background-color: var(--focus);
+    display: flex;
+    height: 76px;
+    justify-content: flex-end;
+    left: 0;
+    min-width: 1422px;
+    padding: 0 18px;
+    position: fixed;
+    top: 25px;
+    width: 100%;
+
+    @include mobile{
+      display: none;
+    }
+}
+
+.fixNav{
+  top: 0px;
+}
+
+.logo {
+    display: flex;
+    height: 70px;
+    width: 240px;
+}
+
+.logo-1 {
+    height: 67px;
+    margin-left: 0;
+    object-fit: cover;
+    width: 240px;
+}
+
+.navbar {
+    background-color: var(--focus2);
+    display: flex;
+    height: 46px;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+    margin-left: 425px;
+    position: relative;
+    width: 701px;
+}
+
+.menu {
+    display: flex;
+    height: 36px;
+    margin-right: 1px;
+    margin-top: 10px;
+    position: relative;
+    width: 699px;
+}
+
+.menu-item-1 {
+    cursor: pointer;
+    display: flex;
+    height: 36px;
+    margin-left: 55px;
+    transition: all 0.2s ease;
+    width: 84px;
+  }
+  
+  .menu-item-1:hover {
+    background-color: #3587BF
+  }
+
+  .about {
+    cursor: pointer;
+    display: flex;
+    height: 36px;
+    margin-left: 15.5px;
+    transition: all 0.2s ease;
+    width: 66px;
+  }
+  
+  .about:hover {
+    background-color: #3587BF
+  }
+
+  .about-1 {
+    cursor: pointer;
+    height: 16px;
+    letter-spacing: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+    width: 46px;
+  }
+  
+  .about-1:hover {
+    color: #ffffff
+  }
+
+  .services {
+    cursor: pointer;
+    height: 16px;
+    letter-spacing: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+    width: 64px;
+  }
+  
+  .services:hover {
+    color: #ffffff
+  }
+  
+  .our-work {
+    cursor: pointer;
+    display: flex;
+    height: 36px;
+    margin-left: 55px;
+    transition: all 0.2s ease;
+    width: 91px;
+  }
+  
+  .our-work:hover {
+    background-color: #3587BF
+  }
+  
+  .our-work-1 {
+    cursor: pointer;
+    height: 16px;
+    letter-spacing: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+    width: 73px;
+  }
+  
+  .our-work-1:hover {
+    color: #ffffff
+  }
+  
+  .estimate {
+    background-color: var(--boston-blue);
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    height: 36px;
+    margin-left: 55px;
+    transition: all 0.2s ease;
+    width: 123px;
+  }
+  
+  .estimate:hover {
+    background-color: #ffffff
+  }
+  
+  .free-estimate {
+    cursor: pointer;
+    height: 16px;
+    letter-spacing: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+    width: 103px;
+  }
+  
+  .free-estimate:hover {
+    color: #3587BF
+  } */
+  
+  

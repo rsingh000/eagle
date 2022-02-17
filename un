@@ -1,0 +1,41 @@
+
+function App() {
+    return (
+      <div className="info" >
+        <div className="mail" >
+          <img
+            className="ant-designmail-outlined"
+            
+            src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/620961d60ef88ca2b17058fb/img/ant-design-mail-outlined@2x.svg"
+          />
+          <div className="email roundedmplus1c-extra-extra-bold-white-14px" >
+            bikramvirdi13@gmail.com
+          </div>
+        </div>
+        <div className="address" >
+          <img
+            className="gislocation-poi-o"
+            
+            src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/620961d60ef88ca2b17058fb/img/gis-location-poi-o@2x.svg"
+          />
+          <p className="addressinfo roundedmplus1c-extra-extra-bold-white-14px" >
+            9286 Stuart Crescent <br />
+            Surrey BC 3V3 1T6
+          </p>
+        </div>
+        <div className="phone" >
+          <img
+            className="akar-iconsphone"
+            
+            src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/62094527e0d13e3d908fe745/img/akar-icons-phone@2x.svg"
+          />
+          <div className="phone-1 roundedmplus1c-extra-extra-bold-white-14px" >
+            (778)829-6747
+          </div>
+        </div>
+      </div>
+    );
+  }
+  
+  export default App;
+  

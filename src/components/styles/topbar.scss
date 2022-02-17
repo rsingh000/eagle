@@ -1,0 +1,67 @@
+@import "../../global.scss";
+
+.left-topbar {
+  display: flex;
+  width: 139.89px;
+  height: auto;
+}
+
+.fbicon {
+  height: 24px;
+  margin-left: 40.0px;
+  margin-top: -0.2px;
+  object-fit: cover;
+  width: 25px;
+  cursor: pointer;
+}
+
+.twittericon {
+  height: 25px;
+  margin-left: 49.7px;
+  object-fit: cover;
+  width: 25.5px;
+  cursor: pointer;
+}
+
+.right-topbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 242px;
+}
+
+.akar-iconsphone {
+  height: 24px;
+  margin-right: 50px;
+  width: 24px;
+}
+
+.phone {
+  height: 16px;
+  letter-spacing: 0;
+  margin-right: 40px;
+  margin-top: 4px;
+  width: 138px;
+}
+
+.topbar {
+  background-color: var(--red-orange);
+  display: flex;
+  height: 25px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+@include mobile {
+  .topbar {
+    display: none;
+  }
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,500,600,800|Roboto+Slab:700|Ropa+Sans:400|Roboto+Condensed:700");
+
+* {
+  box-sizing: border-box;
+}

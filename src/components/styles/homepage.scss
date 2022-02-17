@@ -1,0 +1,155 @@
+@import "../../global.scss";
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/mainbg-2@1x.png");
+  height: 800px;
+
+  @include mobile {
+    flex-direction: column;
+    height: auto;
+    gap: 50px;
+  }
+}
+
+.left-title {
+  display: flex;
+  flex-direction: column;
+  height: 395px;
+  width: 40%;
+  position: relative;
+  left: 20px;
+
+  @include mobile {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    left: 0;
+  }
+
+  @include tablet {
+    gap: 50px;
+  }
+}
+
+.eagle-painting-contr {
+  color: transparent;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl2);
+  font-weight: 600;
+  letter-spacing: 0;
+  max-height: 195px;
+  text-align: center;
+}
+
+.span0 {
+  color: var(--focus);
+  font-weight: 700;
+  font-size: var(--font-size-xl);
+}
+
+.span2 {
+  color: var(--alto);
+  font-family: var(--font-family-roboto_slab);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+}
+
+.learn-more-btn {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  max-height: 116px;
+
+  @include mobile {
+    margin-top: -55px;
+  }
+}
+
+.overlap-group {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/brushbtn-2@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 84px;
+  min-width: 251px;
+  padding: 20px 47px;
+}
+
+.learn-more {
+  letter-spacing: 0;
+  min-height: 32px;
+  width: 157px;
+  cursor: pointer;
+}
+
+.estimateFormMain {
+  padding: 20px;
+  width: 50%;
+  position: relative;
+  color: white;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  @include mobile {
+    width: 90%;
+    position: relative;
+    left: 0;
+    bottom: 50px;
+  }
+}
+
+.estimateForm.animate-enter {
+  animation: animate-enter-frames 0.7s ease-in-out 0s 1 normal forwards;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+@keyframes animate-enter-frames {
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,500,600,800|Roboto+Slab:700|Ropa+Sans:400|Roboto+Condensed:700");
+
+
+* {
+  box-sizing: border-box;
+} 

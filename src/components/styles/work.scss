@@ -1,0 +1,212 @@
+@import "../../global.scss";
+@import '~video-react/styles/scss/video-react';
+
+.workMain {
+    width: 100%;    
+    background-image: url("https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/bg-4@1x.png");
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    background-color: var(--titlebg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+    width: 75%;
+
+    @include mobile {
+        padding: 20px;
+        height: auto;
+        width: 90%;
+    }
+}
+
+.title {
+    height: 28px;
+    letter-spacing: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 36px;
+
+    @include mobile {
+        letter-spacing: 0;
+        height: auto;
+        text-align: center;
+        width: 306px;
+        font-size: larger;
+        margin-left: -5px;
+    }
+}
+      
+.sub-title {
+    height: auto;
+    letter-spacing: 0;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+    width: auto;
+
+    @include mobile {
+        letter-spacing: 0;
+        height: auto;
+        text-align: center;
+        width: 333px;
+        font-size: 18px;
+    }
+}
+
+.workSection {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: lightgray;
+    margin-bottom: -50px;
+}
+
+.cubeTitle {
+    font-size: 24px;
+}
+
+.mySwiper {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    height: 500px;
+
+    @include mobile {
+        width: 100%;
+        height: 60%;
+    }
+}
+
+.cubicTitle {
+    color: var(--tundora);
+    font-size: 24px;
+    font-family: var(--font-family-rounded_mplus_1c-extrabold);
+}
+
+.imgCubic {
+    height: 500px;
+    align-items: center;
+}
+
+.cube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination {
+    margin-bottom: -50px !important;
+}
+
+.compare {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.compareTitle {
+    color: var(--tundora);
+    font-size: 24px;
+    font-family: var(--font-family-rounded_mplus_1c-extrabold);
+
+    @include tablet {
+        margin-left: 30px;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.twoProjects {
+    display: flex;
+    flex: 1 1;
+    width: 80%;
+    gap: 25px;
+
+    @include mobile {
+        flex-direction: column;
+    }
+}
+
+.imgCompare {
+    width: 50%;
+  
+    @include mobile {
+        width: 100%;
+    }
+}
+
+.thirdProject{
+    display: flex;
+    flex: 1 1;
+    width: 80%;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+
+    @include mobile {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.desc {
+    font-size: 20px;
+    width: 80%;
+}
+
+.video {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 50%;
+    height: 500px;
+    gap: 40px;
+    flex-direction: column;
+    margin-left: 130px;
+
+    @include mobile {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+    @include tablet {
+        margin-left: 70px;
+    }
+}
+
+.videoTitle {
+    color: var(--tundora);
+    font-size: 24px;
+    font-family: var(--font-family-rounded_mplus_1c-extrabold);
+}
+
+@font-face {
+    font-family: "Rounded Mplus 1c-ExtraBold";
+    font-style: normal;
+    font-weight: 800;
+    src: url("https://fonts.animaapp.com/RoundedMplus1c-ExtraBold") format("truetype");
+  }
+

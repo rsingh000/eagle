@@ -1,0 +1,202 @@
+@import "../../global.scss";
+
+
+.contactMain {
+    width: 100%;    
+    background-image: url("https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/bg-4@1x.png");
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    background-color: var(--titlebg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 200px;
+    opacity: 0;
+    transform: scale(1.1);
+    width: 1002px;
+
+    @include mobile {
+        height: 229px;
+        width: 90%;
+    }
+}
+
+.title {
+    height: 28px;
+    letter-spacing: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 858px;
+    font-size: 36px;
+
+    @include mobile {
+        letter-spacing: 0;
+        min-height: 28px;
+        text-align: center;
+        width: 306px;
+        font-size: larger;
+        margin-left: -5px;
+    }
+}
+      
+.sub-title {
+    height: auto;
+    letter-spacing: 0;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+    width: auto;
+
+    @include mobile {
+        letter-spacing: 0;
+        min-height: 65px;
+        text-align: center;
+        width: 333px;
+    }
+}
+
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 3px solid #ff3838;
+}
+
+  
+.contact-info {
+    align-items: flex-end;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/contactinfo-2@1x.png);
+    background-size: 100% 100%;
+    display: flex;
+    height: auto;
+    padding: 31px 31px;
+    width: 80%;
+    justify-content: flex-end;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    height: 57px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.carbonemail {
+    width: 32px;
+}
+
+.flex-col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 63px;
+    justify-content: space-between;
+    width: 33%;
+
+    @include mobile {
+        margin-left: 0;
+    }
+  }
+
+  .title1 {
+
+      @include mobile {
+        display: none;
+      }
+  }
+  
+  .address {
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    margin-top: 35px;
+    margin-bottom: -10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 185px;
+    cursor: pointer;
+
+    @include mobile {
+        margin-top: 0;
+    }
+  }
+  
+  .fluentlocation-20-regular {
+    width: 35px;
+  }
+  
+  .overlap-group-1 {
+    height: 62px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+    width: 33%;
+  cursor: pointer;
+
+    @include mobile {
+        width: 50%;
+        margin-top: 20px;
+    }
+  }
+  
+  .phoneIcon{
+      margin-top: 4px;
+  }
+  
+  .phone-1 {
+    margin-top: 9px;
+  }
+  
+  .group {
+    width: 32px;
+  }
+
+  .estimateForm{
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+  
+    @include mobile {
+        width: 85%;
+        margin-left: 0;
+        margin-top: 50px
+    }
+  }
+
+  .col-textfields{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+  
+  @import url("https://fonts.googleapis.com/css?family=Roboto:700,500,600,800|Roboto+Slab:700|Ropa+Sans:400|Roboto+Condensed:700");
+
+  * {
+    box-sizing: border-box;
+  }
