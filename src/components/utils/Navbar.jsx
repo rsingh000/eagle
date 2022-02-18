@@ -46,8 +46,8 @@ const Navbar = () => {
         <li><a href className="estimate" onClick={onOpenModal} >FREE ESTIMATE</a></li>
       </ul>
       <a href="tel:7788296747">
-        <img
-              className="phoneNav" 
+        <img href="tel:7788296747"
+              className="phoneNav"
               src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/phone@2x.png"
               alt=""
         />
