@@ -134,7 +134,7 @@ const Contact = () => {
                     Surrey BC V3V 1T6
                 </div>
                 </div>
-                <div className="overlap-group-1" href="tel:7788296747" >
+                <div className="overlap-group-1" onClick={()=>window.open("tel:7788296747") } >
                 <img
                     className="group"
                     alt=""
