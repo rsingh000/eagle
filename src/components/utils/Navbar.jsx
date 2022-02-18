@@ -45,11 +45,13 @@ const Navbar = () => {
         <li><Link to="/contact" className="contact" onClick={()=>window.scrollTo(0, 0)}>CONTACT</Link></li>
         <li><a href className="estimate" onClick={onOpenModal} >FREE ESTIMATE</a></li>
       </ul>
-      <img
-            className="phoneNav" onClick={()=>window.open("tel:7788296747")}
-            src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/phone@2x.png"
-            alt=""
-      />
+      <a href="tel:7788296747">
+        <img
+              className="phoneNav" 
+              src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/phone@2x.png"
+              alt=""
+        />
+      </a>
 
       { isMobile ? 
       <img

@@ -134,18 +134,18 @@ const Contact = () => {
                     Surrey BC V3V 1T6
                 </div>
                 </div>
-                <div className="overlap-group-1" onClick={()=>window.open("tel:7788296747") } >
-                <img
-                    className="group"
-                    alt=""
-                    src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/group-4@2x.png"
-                />
-                <div className="phoneIcon" >
-                    <div className="phone-1 roboto-bold-white-14px" >
-                    (778)829-6747
-                    </div>
-                </div>
-                </div>
+                <a className="overlap-group-1" href="tel:7788296747" style={{textDecoration:'none'}}>
+                  <img
+                      className="group"
+                      alt=""
+                      src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/group-4@2x.png"
+                  />
+                  <div className="phoneIcon" >
+                      <div className="phone-1 roboto-bold-white-14px" >
+                      (778)829-6747
+                      </div>
+                  </div>
+                </a>
             </div>
             <form className="estimateForm" onSubmit={formik.handleSubmit}>
               <div className="col-textfields">
