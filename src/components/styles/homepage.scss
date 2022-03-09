@@ -37,19 +37,19 @@
 }
 
 .eagle-painting-contr {
-  color: transparent;
   font-family: var(--font-family-roboto);
   font-size: var(--font-size-xxl2);
-  font-weight: 600;
-  letter-spacing: 0;
-  max-height: 195px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .span0 {
   color: var(--focus);
   font-weight: 700;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-xl);    
+  text-align: center;
+  height: 7rem;
 }
 
 .span2 {

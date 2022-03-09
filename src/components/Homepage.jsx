@@ -93,7 +93,7 @@ const Homepage = () => {
             <div className="left-title">
               <h1 className="eagle-painting-contr">
                 <span className="span0">
-                  EAGLE &nbsp;&nbsp;PRO &nbsp;&nbsp;<br/>PAINTING&nbsp;&nbsp;
+                  EAGLE &nbsp;&nbsp;PRO<br/>PAINTING&nbsp;&nbsp;LTD.
                   <br />
                   <br/>
                 </span>
@@ -110,7 +110,7 @@ const Homepage = () => {
               </div>
             </div>
             <form className="estimateFormMain border-3px-defaultstroke animate-enter" onSubmit={formik.handleSubmit}>
-              <h2 className="roboto-bold-white-24px">GET A FREE ESTIMATE</h2>
+              <h2 className="roboto-bold-white-24px" style={{fontFamily: 'var(--font-family-roboto)'}}>GET A FREE ESTIMATE</h2>
               <TextField
                 style={{width:'90%'}}
                 name="name"

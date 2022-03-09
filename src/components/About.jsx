@@ -20,7 +20,7 @@ const About = () => {
       <div className="aboutMain">
         <div className="main-title" data-aos="fade-up">
             <h1 className="title roboto-semi-bold-white-64px">
-                ABOUT EAGLE PRO PAINTING
+                ABOUT EAGLE PRO PAINTING LTD.
             </h1>
             <div className="sub-title roboto-semi-bold-gray-24px">
                 Reliable Commercial &amp; Residential <br/>Painting Services That Will Exceed All Of Your Expectations
