@@ -3,7 +3,6 @@
 import React from 'react';
 import "../styles/footer.scss";
 import { Link } from 'react-router-dom';
-import "https://kit.fontawesome.com/a076d05399.js";
 
 const Footer = () => {
   return (
