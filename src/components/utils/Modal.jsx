@@ -105,7 +105,7 @@ const Modal = () => {
                     <div className="name-hook" >
                         <div className="company-title roundedmplus1c-extra-extra-bold-white-20px" >
                             <span className="span0">EAGLE </span>
-                            <span className="roundedmplus1c-extra-extra-bold-white-20px-2">PAINTING</span>
+                            <span className="roundedmplus1c-extra-extra-bold-white-20px-2"> PRO PAINTING</span>
                         </div>
                         <p className="hookline roundedmplus1c-extra-extra-bold-white-14px" >
                             A Fresh Coat for a Fresh Start

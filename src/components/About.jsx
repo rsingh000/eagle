@@ -20,7 +20,7 @@ const About = () => {
       <div className="aboutMain">
         <div className="main-title" data-aos="fade-up">
             <h1 className="title roboto-semi-bold-white-64px">
-                ABOUT EAGLE PAINTING
+                ABOUT EAGLE PRO PAINTING
             </h1>
             <div className="sub-title roboto-semi-bold-gray-24px">
                 Reliable Commercial &amp; Residential <br/>Painting Services That Will Exceed All Of Your Expectations
@@ -39,10 +39,10 @@ const About = () => {
                 <br />
                 </span>
                 <span className="roboto-semi-bold-tundora-18px" style={{"lineHeight": "1.5"}}>
-                Eagle Painting Contractors is a homegrown, lower mainland owned and operated painting from the Fraser Valley area with diverse
+                Eagle Pro Painting Contractors is a homegrown, lower mainland owned and operated painting from the Fraser Valley area with diverse
                 background.
                 <br />‍<br />
-                Eagle Painting is unique in the fact that not only do we offer full suite of painting services, we offer a hands on approach where
+                Eagle Pro Painting is unique in the fact that not only do we offer full suite of painting services, we offer a hands on approach where
                 you deal directly with one of the owners of the company. We believe in a hand holding model for service and delivery of our
                 services with clear and written expectations.
                 </span>
@@ -50,7 +50,7 @@ const About = () => {
         </div>
         <h1 className="reason-for-choice roboto-semi-bold-white-24px-22" data-aos="fade-down">
             <span className="roboto-semi-bold-cape-cod-24px">
-                WHY CHOOSE EAGLE PAINTING
+                WHY CHOOSE EAGLE PRO PAINTING
                 <br />
             </span>
             <span className="roboto-semi-bold-black-24px">

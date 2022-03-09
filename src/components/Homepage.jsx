@@ -93,7 +93,7 @@ const Homepage = () => {
             <div className="left-title">
               <h1 className="eagle-painting-contr">
                 <span className="span0">
-                  EAGLE &nbsp;&nbsp;PAINTING<br/>CONTRACTORS
+                  EAGLE &nbsp;&nbsp;PRO &nbsp;&nbsp;<br/>PAINTING&nbsp;&nbsp;
                   <br />
                   <br/>
                 </span>

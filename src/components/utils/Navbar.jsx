@@ -34,7 +34,7 @@ const Navbar = () => {
           <img
             className="logoImg"
             alt=""
-            src="https://anima-uploads.s3.amazonaws.com/projects/61f442dbf9ef2c79fcd1f396/releases/61f457eceb1e810fc50e7615/img/logo-1@2x.png"
+            src="https://i.ibb.co/vkNrdHn/EAGLE-PROS-5.png"
           />
 
       </Link>

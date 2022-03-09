@@ -11,7 +11,7 @@ const Footer = () => {
   	 <div className="container">
   	 	<div className="row">
   	 		<div className="footer-col">
-  	 			<h4>Eagle Painting</h4>
+  	 			<h4>Eagle Pro Painting</h4>
   	 			<ul>
   	 				<li><Link to="/about" onClick={()=>window.scrollTo(0, 0)}>About Us</Link></li>
   	 				<li><Link to="/services" onClick={()=>window.scrollTo(0, 0)}>Services</Link></li>

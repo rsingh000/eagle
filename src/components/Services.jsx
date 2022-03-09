@@ -42,7 +42,7 @@ const Services = () => {
                 <span className="roboto-semi-bold-tundora-18px" style={{"lineHeight": "1.5"}}>
                 Commercial painting is just as important as residential painting. In fact, it could be even more important depending on your customers and business. Choose one of the top industrial painting company in lower mainland.
                 Our painting contractors assure the job will be completed right the first time. Eagle carries all lines of commercial insurances and practice all of the latest safety protocols.
-                By choosing Eagle Painting, you are guaranteed quality, convenience and value.<br/>
+                By choosing Eagle Pro Painting, you are guaranteed quality, convenience and value.<br/>
                 <span className="gradientColor">EXTERIOR PAINTING<br/>INTERIOR PAINTING<br/>ELECTROSTATIC PAINTING<br/></span>
                 </span>
             </h1>
@@ -57,7 +57,7 @@ const Services = () => {
                 <br />
                 </span>
                 <span className="roboto-semi-bold-tundora-18px" style={{"lineHeight": "1.5"}}>
-                    Nothing brings out a homes beauty like a fresh coat of paint inside or outside. When you’re ready to improve your homes look, Eagle Painting Contractors puts you at ease with our professional painters and project management and we strive to stay within your budget and time frame.
+                    Nothing brings out a homes beauty like a fresh coat of paint inside or outside. When you’re ready to improve your homes look, Eagle Pro Painting Contractors puts you at ease with our professional painters and project management and we strive to stay within your budget and time frame.
                     Some of the areas we service include. Vancouver, Surrey, Burnaby, North Vancouver, Abbotsford, Aldergrove, Fraser Valley.<br/>
                 <span className="gradientColor">EXTERIOR PAINTING<br/>INTERIOR PAINTING<br/>FIXTURE REMOVAL AND REPLACEMENT<br/></span>
                 </span>

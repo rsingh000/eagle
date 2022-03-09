@@ -32,7 +32,7 @@ const Work = () => {
                     RECENT PROJECTS
                 </h1>
                 <div className="sub-title roboto-semi-bold-gray-24px">
-                Eagle brings homeowners and businesses a fast, affordable and high quality solution for all of their interior or exterior residential, commercial and industrial painting projects. We respect your time as much as you do and provide the quality paint job you expect, in a timeline that is unexpected.                </div>
+                Eagle Pro brings homeowners and businesses a fast, affordable and high quality solution for all of their interior or exterior residential, commercial and industrial painting projects. We respect your time as much as you do and provide the quality paint job you expect, in a timeline that is unexpected.                </div>
             </div>
         </div>
         
